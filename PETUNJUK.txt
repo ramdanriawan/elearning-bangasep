@@ -1,0 +1,30 @@
+PETUNJUK PEMAKAIAN APLIKASI E-LEARNING UJIAN ONLINE (SOAL ACAK) asepyudisuryono.web.id
+````````````````````````````````````````````````````````````````````````````
+
+Untuk menginstall di offline di komputer/laptop silahkan ikuti langkah-langkah dibawah ini :
+
+PERSIAPAN :
+1. Install Web Server di komputer Anda semisal XAMPP / Apache (Usahakan versi yang terbaru)
+2. Install Web Browser semisal Mozilla Firefox / Google Chrome / etc
+
+Selanjutnya..
+
+PETUNJUK PEMAKAIAN :
+1. Ekstrak file .zip yang telah Anda dapatkan
+2. Buka folder hasil ekstrakan, di dalamnya ada folder bernama "e-learning", copykan ke direktori htdocs xampp Anda, kalo di komputer saya di C:\xampp\htdocs\
+3. Aktifkan Control Panel XAMPP, buka browser, masuk ke localhost/phpmyadmin, dan buat database baru dengan nama "db_elearning"
+4. Import database yang ada di folder hasil ekstrakan "db_elearning.sql" ke db yang udah kita buat barusan
+5. Kalau koneksi error, Anda cocokkan dahulu koneksinya dengan web server Anda, mungkin phpmyadmin Anda ada password atau gimana
+   (Pengaturan koneksi ada di folder e-learning/+koneksi.php, e-learning/login.php dan e-learning/register.php, cari bagian $db = mysqli_connect("localhost", "root", "", "db_elearning");
+
+7. Coba Anda buka di browser dengan alamat localhost/e-learning/admin
+8. Login sebagai admin :
+   a.) - Username : admin
+       - Password : admin
+   b.) Untuk login sebagai guru lihat saja username dan passwordnya di menu Manajemen Pengajar
+9. Jika berhasil, Anda sudah bisa menggunakan aplikasi ini.
+
+- Pada halaman admin utama ini Anda juga bisa melihat username dan password siswa dan melakukan manajemen data yang lain.
+
+- Untuk login sebagai siswa buka di halaman localhost/e-learning
+
