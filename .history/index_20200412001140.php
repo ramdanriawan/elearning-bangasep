@@ -57,7 +57,7 @@ $data_terlogin = mysqli_fetch_array($sql_terlogin);
 
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
-                            <img src="img/logo.png" alt="" style="height:64px !important; width:85px !important; border: none; margin-left: -30px; margin-top: -10px">
+                                <span class="glyphicon glyphicon-user" style="font-size: 25px;"></span>
                             </a>
                             <div class="dropdown-menu dropdown-settings">
                                 <div class="media">

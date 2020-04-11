@@ -42,7 +42,7 @@ $db = mysqli_connect("localhost", "lomx1822_e_learning", "lomx1822_e_learning", 
                     <ul class="nav">
                         <li class="dropdown">
                             <a class="dropdown-toggle">
-                            <img src="img/logo.png" alt="" style="height:64px !important; width:85px !important; border: none; margin-left: -30px; margin-top: -10px">
+                                <span class="glyphicon glyphicon-user" style="font-size: 25px;"></span>
                             </a>
                         </li>
                     </ul>
