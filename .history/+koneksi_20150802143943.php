@@ -1,5 +1,5 @@
 <?php
-$db = mysqli_connect("localhost", "lomx1822_e_learning", "lomx1822_e_learning", "lomx1822_e_learning");
+$db = mysqli_connect("localhost", "root", "", "db_elearning");
 
 //---fungsi2---//
 function cek_session($isi_admin, $isi_pengajar) {

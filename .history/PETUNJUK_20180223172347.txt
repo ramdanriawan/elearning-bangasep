@@ -15,7 +15,7 @@ PETUNJUK PEMAKAIAN :
 3. Aktifkan Control Panel XAMPP, buka browser, masuk ke localhost/phpmyadmin, dan buat database baru dengan nama "db_elearning"
 4. Import database yang ada di folder hasil ekstrakan "db_elearning.sql" ke db yang udah kita buat barusan
 5. Kalau koneksi error, Anda cocokkan dahulu koneksinya dengan web server Anda, mungkin phpmyadmin Anda ada password atau gimana
-   (Pengaturan koneksi ada di folder e-learning/+koneksi.php, e-learning/login.php dan e-learning/register.php, cari bagian $db = mysqli_connect("localhost", "lomx1822_e_learning", "lomx1822_e_learning", "lomx1822_e_learning");
+   (Pengaturan koneksi ada di folder e-learning/+koneksi.php, e-learning/login.php dan e-learning/register.php, cari bagian $db = mysqli_connect("localhost", "root", "", "db_elearning");
 
 7. Coba Anda buka di browser dengan alamat localhost/e-learning/admin
 8. Login sebagai admin :

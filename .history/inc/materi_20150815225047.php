@@ -5,7 +5,7 @@
 </div>
 
 <?php
-$db = mysqli_connect("localhost", "lomx1822_e_learning", "lomx1822_e_learning", "lomx1822_e_learning");
+$db = mysqli_connect("localhost", "root", "", "db_elearning");
 if(@$_GET['action'] == '') { ?>
 	<div class="row">
 	    <div class="col-md-12">
